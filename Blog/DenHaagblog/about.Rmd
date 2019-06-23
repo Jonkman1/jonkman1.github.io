@@ -1,0 +1,9 @@
+---
+title: "Over dit blog"
+description: |
+  Op dit blog vind je bijdragen over de leefomstandigheden van Antillianen in Den Haag
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

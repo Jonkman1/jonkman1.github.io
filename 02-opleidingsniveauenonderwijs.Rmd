@@ -1,0 +1,90 @@
+# Opleidingsniveau en Onderwijs
+
+## Opleidingsniveau Den Haag  
+Onder alle inwoners van Den Haag heeft 45% een hoog, 31% een middelbaar en 24% een laag op-leidingsniveau. Hier zitten echter verschillen in naar herkomstgroep. Van de Antilliaans-Nederlandse inwoners heeft bijna de helft een middelbaar opleidingsniveau en ruim een kwart een hoog opleidingsniveau. Inwoners met een Marokkaanse en Turkse achtergrond hebben het hoogste aandeel met een laag opleidingsniveau (45% en 46%). Inwoners met een Nederlandse of westerse achtergrond hebben het hoogste aandeel met een hoog opleidingsniveau (52% en 57%).
+
+
+```{r, echo=FALSE, fig.cap="Opleidingsniveau naar herkomst Den Haag, 2013"}
+knitr::include_graphics("H:/DenHaag/Boek/img/Fig4.jpg")
+
+```
+
+## Opleidingsniveau Nederland
+Ook in Nederland heeft bijna de helft van de Antilliaanse-Nederlanders een middelbaar oplei-dingsniveau (46%). Dit komt overeen met de cijfers in Den Haag. Een verschil is dat landelijk gezien een derde van de inwoners met een Antilliaanse achtergrond een laag opleidingsniveau heeft, en ongeveer een vijfde een hoog opleidingsniveau. In Den Haag heeft een kwart een laag opleidings-niveau en ongeveer een derde juist een hoog opleidingsniveau.  
+
+
+```{r, echo=FALSE, fig.cap="Opleidingsniveau naar herkomst Nederland, 2013"}
+knitr::include_graphics("H:/DenHaag/Boek/img/Fig5.jpg")
+
+```
+
+## Voortijdig Schoolverlaten  
+Het schooljaar 2011-2012 telde in totaal 1.600 vroegtijdige schoolverlaters (VSV-ers) in Den Haag, wat neerkomt op een gemiddelde van 4,9%. Het grootste percentage schoolverlaters is onder jon-geren met een Antilliaanse achtergrond (9,2%). Rotterdam heeft in 2014 een iets hoger percentage VSV-ers (5,4%), en ook hier hebben de Antilliaans-Nederlandse scholieren het hoogste percentage VSV-ers (7,4%).    
+
+   
+
+
+```{r, echo=FALSE}
+library(knitr)
+library(kableExtra)
+myTable<- data.frame(
+  header1=
+    c("Nederlands",
+      "Antilliaans-Nederlands",
+      "Marokkaans-Nederlands",
+      "Turks-Nederlands",
+      "Surinaams-Nederlands",
+      "Overig niet-westers",
+      "Westers",
+      "Totaal"),
+  header2=
+    c("545",
+      "104",
+      "187",
+      "228",
+      "203",
+      "172",
+      "161",
+      "1600"),
+  header3=
+    c("4,0",
+      "9,2",
+      "5,7",
+      "5,4",
+      "4,8",
+      "4,8",
+      "5,7",
+      "4,9"),
+   header4=
+    c("1657",
+      "358",
+      "517",
+      "645",
+      "516",
+      "375",
+      "351",
+      "4419"),
+  header5=
+    c("5,1",
+      "7,4",
+      "6,1",
+      "6,9",
+      "6,3",
+      "4,8",
+      "4,5",
+      "5,4")
+)
+
+  kable(myTable,
+        col.names = c("Achtergronden", "n", "%", "n", "%"),
+        caption = "Voortijdige Schoolverlaters Den Haag (2011-2012) en Rotterdam (2014")
+
+```
+
+   
+
+## Mogelijke verklaringen
+Leerlingen met een migratieachtergrond verlaten school vaker vroegtijdig dan leerlingen met een Nederlandse achtergrond. Dit geldt met name voor jongeren met een Antilliaanse achtergrond. Vaak zijn deze jongeren hun onderwijsloopbaan al gestart met een taalachterstand, doordat zij de Nederlandse taal onvoldoende beheersen (Meeng, 2008) en deze ook niet altijd thuis gesproken wordt (Holter, 2014). Deze achterstanden worden tijdens hun onderwijsloopbaan onvoldoende ingelopen, waardoor zij groter risico hebben op vroegtijdig schoolverlaten [@Meeng2008].   
+
+Ook de samenstelling van het gezin vormt een risicofactor. Zo lopen kinderen uit eenoudergezin-nen meer risico op voortijdig schoolverlaten [@Traag2008]. De verklaring die hier-voor wordt gegeven is dat kinderen uit eenoudergezinnen minder sociale interactie hebben, aangezien maar een ouder beschikbaar is. Dit betekent dat deze kinderen minder van de hulpbronnen van hun ouders kunnen profiteren, wat de kans op schoolverlaten vergroot. En zoals ook blijkt uit hoofdstuk 2, zijn er relatief veel eenoudergezinnen onder Antilliaanse-Nederlanders.  
+

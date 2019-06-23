@@ -1,0 +1,12 @@
+name: "DenHaagblog"
+title: "Blog Antilliaanse leefomstandigheden in Den Haag"
+description: |
+  Blog Antilliaanse leefomstandigheden in Den Haag
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Thuisbasis"
+      href: index.html
+    - text: "Over dit blog"
+      href: about.html
+output: radix::radix_article

@@ -1,0 +1,25 @@
+---
+title: "Welkom op het Blog Antilliaanse leefomstandigheden in Den Haag"
+description: |
+  Welkom op ons nieuwe Blog Antilliaanse leefomstandigheden in Den Haag. Met dit blog vertelt jullie over nieuwe inzichten op dit terrein!
+author:
+  - name: Harrie Jonkman 
+    url: https://harriejonkman.nl/harriejonkman
+    affiliation: Verwey-Jonker Instituut
+    affiliation_url: https://verweyjonker.nl/verweyjonker
+date: 10-15-2018
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Radix at:
+# https://rstudio.github.io/radix/blog.html
+
+```
+
+
+

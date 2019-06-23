@@ -1,0 +1,42 @@
+---
+title: "Werk en inkomen"
+description: |
+  Over werk en inkomen van Antilliaanse jongeren in Den Haag.
+author:
+  - name: Harrie Jonkman
+    url: https://harriejonkman.nl/harriejonkman
+date: 11-06-2018
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Werk en inkomen {-}
+
+**Werkzoekenden en uitkeringsgerechtigden in Den Haag**   
+In Den Haag is 7,1% van de beroepsbevolking tussen de 15 en 64 jaar werkzoekend. Het hoogste percentage werkzoekenden zien we terug bij de inwoners met een Marokkaanse en Antilliaanse achtergrond (respectievelijk 12,9% en 12,4%) (tabel 2).    
+
+Ook het aandeel uitkeringsgerechtigden in de leeftijdscategorie 15-64 jaar is onder Antilliaans-Nederlandse inwoners hoog. Onder de jongere inwoners (15-24 jaar) in Den Haag is gemiddeld 2,3% uitkeringsgerechtigd. Bij Antilliaans-Nederlandse inwoners ligt dit op 4,2%. Kijken we in figuur 2 naar de ouderen (55-64 jaar) dan is het verschil ten opzichte van het gemiddelde nog veel groter (9,8% om 26,3%). 
+
+**Aantal minimahuishoudens Den Haag**   
+In 2011 zijn er in totaal 43.810 huishoudens in Den Haag met een inkomen tot maximaal 110% van het wettelijk sociaal minimumloon (WSM). Ruim een derde van deze huishoudens, bestaat uit per-sonen met een migratieachtergrond. Kijken we naar cijfers van de herkomst van inwoners van Den Haag, dan valt op dat inwoners met een niet-westerse achtergrond oververtegenwoordigd zijn in de minimahuishoudens, dan je op basis van hun aandeel in de bevolking mag verwachten. Van alle inwoners in Den Haag heeft 2,4% een Antilliaanse achtergrond. Echter vormen zij 5% van de mini-mahuishoudens.   
+
+**Aantal kinderen in minimahuishoudens in Den Haag**   
+In 2015 groeiden 23.857 kinderen in Den Haag op in een minimahuishouden. Hierover zijn echter geen cijfers beschikbaar naar herkomst. Kijken we naar cijfers uit 2011, dan groeiden 22.000 kin-deren op in een minimahuishouden, waarvan 18.000 kinderen met een migratieachtergrond (82%). Uitgesplitst naar herkomst, valt op dat van alle Marokkaans-Nederlandse kinderen 53% opgroeit in een minimahuishouden, bij Antilliaans-Nederlandse kinderen is dat 42%, bij Turks-Nederlandse kinderen 33%, bij Surinaams-Nederlandse kinderen 20% en bij kinderen met een Nederlandse ach-tergrond groeit 9% op in een minimahuishouden. Over alle kinderen gemiddeld genomen, groeit 21% op in een minimahuishouden.    
+
+**Minimahuishoudens in Amsterdam**   
+De trend die in Den Haag zichtbaar is, is ook te zien in Amsterdam. Ook in Amsterdam zijn de huis-houdens met een maximaal inkomen tot 120% WSM [^1]:(In Amsterdam zijn geen cijfers beschikbaar over minimahuishoudens met een maximaal inkomen tot 110% WSM. Andersom zijn er in Den Haag geen cijfers beschikbaar over minimahuishoudens met een maximaal inko-men tot 120% WSM.)     oververtegenwoordigd door inwoners met een niet-westerse achtergrond (55%). Van alle minimahuishoudens in Amsterdam, heeft 1,9% een Antilliaanse achtergrond. Dit staat ongeveer gelijk aan hun aandeel in de Amsterdamse bevolking (1,5%). Van de andere inwoners met een niet-westerse achtergrond, is het aandeel in de minima-huishoudens hoger dan je op basis van hun aandeel in de Amsterdamse bevolking zou mogen ver-wachten.    
+
+Wanneer gekeken wordt naar de armoedekans (het aandeel van een bepaalde herkomstgroep dat leeft in een huishouden tot maximaal 120% WSM, ten opzichte van die hele herkomstgroep) hebben Marokkaanse-Nederlanders (34%), Turkse-Nederlanders (32%) en inwoners met een overige niet-westerse achtergrond (36%) de grootste kans om in armoede te leven. Van de Antilliaanse-Nederlanders in Amsterdam leeft 28% in een huishouden tot maximaal 120% WSM.
+
+**Mogelijke verklaringen**    
+Het verschil in werkloosheidscijfers van Antillianen ten opzichte van autochtonen kan voor een deel verklaard worden doordat ze een lager opleidingsniveau hebben (Andriessen et al., 2007). Ook een onvoldoende beheersing van de Nederlandse taal kan bijdragen aan een slechtere positie op de arbeidsmarkt (Meeng, 2008). Daarnaast kan discriminatie ook een rol spelen. Zo geeft 19% van de niet-werkenden met een Antilliaanse achtergrond aan dat discriminatie de belangrijkste reden is waarom zij een minder goede kans hebben op een baan dan een inwoner met een Neder-landse achtergrond die dezelfde opleiding en werkervaring heeft [@Andriessen2007].   
+
+Het relatief hoog aantal uitkeringsgerechtigden onder Antilliaanse-Nederlanders hangt dan ook weer samen met de hoge werkloosheidscijfers onder Antilliaanse-Nederlanders. Daarnaast heb-ben alleenstaanden ook vaker recht op een uitkering dan mensen die een huishouden delen met andere volwassenen. Voor de Antilliaanse-Nederlanders is dit een belangrijke verklaring voor het verschil in uitkering in vergelijking met inwoners met een Nederlandse achtergrond [@Huijnk2013]. Immers, onder Antilliaanse-Nederlanders zijn relatief veel eenoudergezinnen, zoals blijkt uit Hoofdstuk 2. 
+
+
+
